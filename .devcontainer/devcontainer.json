@@ -29,6 +29,7 @@
 			},
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
+				"GitHub.github-vscode-theme",
 				"ms-python.python",
 				"ms-python.vscode-pylance",
 				"mtxr.sqltools",
