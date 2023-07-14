@@ -33,7 +33,8 @@
 				"ms-python.python",
 				"ms-python.vscode-pylance",
 				"mtxr.sqltools",
-				"mtxr.sqltools-driver-mysql"
+				"mtxr.sqltools-driver-mysql",
+				"innoverio.vscode-dbt-power-user"
 			]
 		}
 	},
