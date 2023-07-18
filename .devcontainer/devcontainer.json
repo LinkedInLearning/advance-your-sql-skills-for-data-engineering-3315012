@@ -4,9 +4,7 @@
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/workspace",
-	// Configure tool-specific properties.
 	"customizations": {
-		// Configure properties specific to VS Code.
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
@@ -29,7 +27,6 @@
 			},
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"GitHub.github-vscode-theme",
 				"ms-python.python",
 				"ms-python.vscode-pylance",
 				"mtxr.sqltools",
