@@ -3,9 +3,10 @@ jaffle_shop:
   outputs:
     dev:
       type: mysql
-      host: localhost
-      user: root
-      schema: mariadb
-      password: mariadb
+      server: localhost
       port: 3306
+      schema: mariadb
+      username: root
+      password: mariadb
+      chema: mariadb
       ssl_disabled: True

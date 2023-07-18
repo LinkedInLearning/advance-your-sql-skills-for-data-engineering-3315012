@@ -4,7 +4,4 @@ if [ -f .devcontainer/setup-mariadb.sql ]; then
   mysql -h 127.0.0.1 -uroot -pmariadb < .devcontainer/setup-mariadb.sql
 fi
 
-# mkdir -p /home/vscode/.dbt
-# touch /home/vscode/.dbt/profiles.yml
-
-# echo """
+echo 'export DBT_PROFILES_DIR="/workspace"'  >> ~/.bash_profile
