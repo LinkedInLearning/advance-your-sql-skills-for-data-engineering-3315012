@@ -8,5 +8,4 @@ jaffle_shop:
       schema: mariadb
       username: root
       password: mariadb
-      chema: mariadb
       ssl_disabled: True
