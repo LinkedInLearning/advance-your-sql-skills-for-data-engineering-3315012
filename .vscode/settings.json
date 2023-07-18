@@ -1,5 +1,6 @@
 {
   "editor.wordWrap": "on",
+  "terminal.integrated.fontSize": 15,
   "sqltools.connections": [
     {
       "mysqlOptions": {
@@ -15,5 +16,13 @@
       "password": "mariadb"
     }
   ],
-  "sqltools.useNodeRuntime": true
+  "sqltools.useNodeRuntime": true,
+  "terminal.integrated.env.linux": {
+    "DBT_PROFILES_DIR": "/workspace"
+  },
+  "files.associations": {
+    "*.sql": "jinja-sql"
+  },
+  "dbt.profilesDirOverride": "/workspace",
+  "dbt.versionCheck": "neither"
 }
