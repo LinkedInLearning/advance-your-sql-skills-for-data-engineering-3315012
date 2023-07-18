@@ -1,0 +1,11 @@
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: mysql
+      host: localhost
+      user: root
+      schema: mariadb
+      password: mariadb
+      port: 3306
+      ssl_disabled: True
