@@ -11,7 +11,7 @@
       "port": 3306,
       "driver": "MariaDB",
       "name": "MariaDB",
-      "database": "intro",
+      "database": "mariadb",
       "username": "root",
       "password": "mariadb"
     }

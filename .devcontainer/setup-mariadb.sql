@@ -1,6 +1,8 @@
-USE mariadb;
+
 -- Using the root user, grant access to the mariadb user.
-GRANT ALL PRIVILEGES ON * TO 'mariadb' @'%' IDENTIFIED BY 'mariadb';
+GRANT ALL PRIVILEGES ON * TO 'root' @'%' IDENTIFIED BY 'mariadb';
+
+USE mariadb;
 
 -- Intro DBT Setup
 CREATE OR REPLACE DATABASE intro COMMENT 'intro';
