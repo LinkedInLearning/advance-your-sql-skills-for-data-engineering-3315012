@@ -2,7 +2,7 @@
 GRANT ALL PRIVILEGES ON *.* TO 'mariadb' @'%' IDENTIFIED BY 'mariadb';
 
 -- Intro DBT Setup
-CREATE OR REPLACE DATABASE chapter1 COMMENT 'intro';
+CREATE OR REPLACE DATABASE intro COMMENT 'intro';
 USE intro;
 
 -- Chapter 2: 911

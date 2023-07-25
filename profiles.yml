@@ -9,3 +9,48 @@ intro:
       username: root
       password: mariadb
       driver: MySQL ODBC 8.0 ANSI Driver
+chapter2:
+  target: dev
+  outputs:
+    dev:
+      type: mariadb
+      server: localhost
+      port: 3306
+      schema: chapter2
+      username: root
+      password: mariadb
+      driver: MySQL ODBC 8.0 ANSI Driver
+chapter3:
+  target: dev
+  outputs:
+    dev:
+      type: mariadb
+      server: localhost
+      port: 3306
+      schema: chapter3
+      username: root
+      password: mariadb
+      driver: MySQL ODBC 8.0 ANSI Driver
+chapter4:
+  target: dev
+  outputs:
+    dev:
+      type: mariadb
+      server: localhost
+      port: 3306
+      schema: chapter4
+      username: root
+      password: mariadb
+      driver: MySQL ODBC 8.0 ANSI Driver
+chapter5:
+  target: dev
+  outputs:
+    dev:
+      type: mariadb
+      server: localhost
+      port: 3306
+      schema: chapter5
+      username: root
+      password: mariadb
+      driver: MySQL ODBC 8.0 ANSI Driver
+
