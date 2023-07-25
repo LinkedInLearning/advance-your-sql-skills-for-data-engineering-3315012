@@ -1,11 +1,11 @@
-jaffle_shop:
+intro:
   target: dev
   outputs:
     dev:
-      type: mysql
+      type: mariadb
       server: localhost
       port: 3306
-      schema: mariadb
+      schema: intro
       username: root
       password: mariadb
-      ssl_disabled: True
+      driver: MySQL ODBC 8.0 ANSI Driver
