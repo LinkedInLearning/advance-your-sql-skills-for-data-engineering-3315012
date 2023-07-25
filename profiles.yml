@@ -6,7 +6,7 @@ intro:
       server: localhost
       port: 3306
       schema: intro
-      username: root
+      username: mariadb
       password: mariadb
       driver: MySQL ODBC 8.0 ANSI Driver
 chapter2:
@@ -17,7 +17,7 @@ chapter2:
       server: localhost
       port: 3306
       schema: chapter2
-      username: root
+      username: mariadb
       password: mariadb
       driver: MySQL ODBC 8.0 ANSI Driver
 chapter3:
@@ -28,7 +28,7 @@ chapter3:
       server: localhost
       port: 3306
       schema: chapter3
-      username: root
+      username: mariadb
       password: mariadb
       driver: MySQL ODBC 8.0 ANSI Driver
 chapter4:
@@ -39,7 +39,7 @@ chapter4:
       server: localhost
       port: 3306
       schema: chapter4
-      username: root
+      username: mariadb
       password: mariadb
       driver: MySQL ODBC 8.0 ANSI Driver
 chapter5:
@@ -50,7 +50,7 @@ chapter5:
       server: localhost
       port: 3306
       schema: chapter5
-      username: root
+      username: mariadb
       password: mariadb
       driver: MySQL ODBC 8.0 ANSI Driver
 
