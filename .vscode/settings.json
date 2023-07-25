@@ -10,61 +10,9 @@
       "server": "127.0.0.1",
       "port": 3306,
       "driver": "MariaDB",
-      "name": "Intro",
+      "name": "MariaDB",
       "database": "intro",
-      "username": "mariadb",
-      "password": "mariadb"
-    },
-    {
-      "mysqlOptions": {
-        "authProtocol": "default"
-      },
-      "previewLimit": 50,
-      "server": "127.0.0.1",
-      "port": 3306,
-      "driver": "MariaDB",
-      "name": "Chapter2",
-      "database": "chapter2",
-      "username": "mariadb",
-      "password": "mariadb"
-    },
-    {
-      "mysqlOptions": {
-        "authProtocol": "default"
-      },
-      "previewLimit": 50,
-      "server": "127.0.0.1",
-      "port": 3306,
-      "driver": "MariaDB",
-      "name": "Chapter3",
-      "database": "chapter3",
-      "username": "mariadb",
-      "password": "mariadb"
-    },
-    {
-      "mysqlOptions": {
-        "authProtocol": "default"
-      },
-      "previewLimit": 50,
-      "server": "127.0.0.1",
-      "port": 3306,
-      "driver": "MariaDB",
-      "name": "Chapter4",
-      "database": "chapter4",
-      "username": "mariadb",
-      "password": "mariadb"
-    },
-    {
-      "mysqlOptions": {
-        "authProtocol": "default"
-      },
-      "previewLimit": 50,
-      "server": "127.0.0.1",
-      "port": 3306,
-      "driver": "MariaDB",
-      "name": "Chapter5",
-      "database": "chapter5",
-      "username": "mariadb",
+      "username": "root",
       "password": "mariadb"
     }
   ],
