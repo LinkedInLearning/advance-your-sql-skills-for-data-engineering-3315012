@@ -13,19 +13,19 @@ models:
         description: "The date of the data point"
         tests:
           - not_null
-      - name:  closing_price_(USD)
+      - name:  closing_price
         description: "Closing Price in USD"
         tests:
           - not_null
-      - name: 24h_open_(USD)
+      - name: 24h_open
         description: "The open price"
         tests:
           - not_null
-      - name: 24h_high_(USD)
+      - name: 24h_high
         description: "The high price over 24H"
         tests:
           - not_null
-      - name: 24h_low_(USD)
+      - name: 24h_low
         description: "The low price over 24H"
         tests:
           - not_null
@@ -40,19 +40,19 @@ models:
         description: "The date of the data point"
         tests:
           - not_null
-      - name:  closing_price_(USD)
+      - name:  closing_price
         description: "Closing Price in USD"
         tests:
           - not_null
-      - name: 24h_open_(USD)
+      - name: 24h_open
         description: "The open price"
         tests:
           - not_null
-      - name: 24h_high_(USD)
+      - name: 24h_high
         description: "The high price over 24H"
         tests:
           - not_null
-      - name: 24h_low_(USD)
+      - name: 24h_low
         description: "The low price over 24H"
         tests:
           - not_null
@@ -67,19 +67,19 @@ models:
         description: "The date of the data point"
         tests:
           - not_null
-      - name:  closing_price_(USD)
+      - name:  closing_price
         description: "Closing Price in USD"
         tests:
           - not_null
-      - name: 24h_open_(USD)
+      - name: 24h_open
         description: "The open price"
         tests:
           - not_null
-      - name: 24h_high_(USD)
+      - name: 24h_high
         description: "The high price over 24H"
         tests:
           - not_null
-      - name: 24h_low_(USD)
+      - name: 24h_low
         description: "The low price over 24H"
         tests:
           - not_null
@@ -94,19 +94,19 @@ models:
         description: "The date of the data point"
         tests:
           - not_null
-      - name:  closing_price_(USD)
+      - name:  closing_price
         description: "Closing Price in USD"
         tests:
           - not_null
-      - name: 24h_open_(USD)
+      - name: 24h_open
         description: "The open price"
         tests:
           - not_null
-      - name: 24h_high_(USD)
+      - name: 24h_high
         description: "The high price over 24H"
         tests:
           - not_null
-      - name: 24h_low_(USD)
+      - name: 24h_low
         description: "The low price over 24H"
         tests:
           - not_null
@@ -121,19 +121,19 @@ models:
         description: "The date of the data point"
         tests:
           - not_null
-      - name:  closing_price_(USD)
+      - name:  closing_price
         description: "Closing Price in USD"
         tests:
           - not_null
-      - name: 24h_open_(USD)
+      - name: 24h_open
         description: "The open price"
         tests:
           - not_null
-      - name: 24h_high_(USD)
+      - name: 24h_high
         description: "The high price over 24H"
         tests:
           - not_null
-      - name: 24h_low_(USD)
+      - name: 24h_low
         description: "The low price over 24H"
         tests:
           - not_null
@@ -148,19 +148,19 @@ models:
         description: "The date of the data point"
         tests:
           - not_null
-      - name:  closing_price_(USD)
+      - name:  closing_price
         description: "Closing Price in USD"
         tests:
           - not_null
-      - name: 24h_open_(USD)
+      - name: 24h_open
         description: "The open price"
         tests:
           - not_null
-      - name: 24h_high_(USD)
+      - name: 24h_high
         description: "The high price over 24H"
         tests:
           - not_null
-      - name: 24h_low_(USD)
+      - name: 24h_low
         description: "The low price over 24H"
         tests:
           - not_null
