@@ -2,9 +2,165 @@
 version: 2
 
 models:
-  - name: ""
-    description: ""
+  - name: btc
+    description: "BTC Data"
     columns:
-      - name: id
-        description: ""
-        tests: []
+      - name:  currency, 
+        description: "The type of coin"
+        tests:
+          - not_null
+      - name: date
+        description: "The date of the data point"
+        tests:
+          - not_null
+      - name:  closing_price_(USD)
+        description: "Closing Price in USD"
+        tests:
+          - not_null
+      - name: 24h_open_(USD)
+        description: "The open price"
+        tests:
+          - not_null
+      - name: 24h_high_(USD)
+        description: "The high price over 24H"
+        tests:
+          - not_null
+      - name: 24h_low_(USD)
+        description: "The low price over 24H"
+        tests:
+          - not_null
+  - name: eth
+    description: "ETH Data"
+    columns:
+      - name:  currency, 
+        description: "The type of coin"
+        tests:
+          - not_null
+      - name: date
+        description: "The date of the data point"
+        tests:
+          - not_null
+      - name:  closing_price_(USD)
+        description: "Closing Price in USD"
+        tests:
+          - not_null
+      - name: 24h_open_(USD)
+        description: "The open price"
+        tests:
+          - not_null
+      - name: 24h_high_(USD)
+        description: "The high price over 24H"
+        tests:
+          - not_null
+      - name: 24h_low_(USD)
+        description: "The low price over 24H"
+        tests:
+          - not_null
+  - name: link
+    description: "LINK Data"
+    columns:
+      - name:  currency, 
+        description: "The type of coin"
+        tests:
+          - not_null
+      - name: date
+        description: "The date of the data point"
+        tests:
+          - not_null
+      - name:  closing_price_(USD)
+        description: "Closing Price in USD"
+        tests:
+          - not_null
+      - name: 24h_open_(USD)
+        description: "The open price"
+        tests:
+          - not_null
+      - name: 24h_high_(USD)
+        description: "The high price over 24H"
+        tests:
+          - not_null
+      - name: 24h_low_(USD)
+        description: "The low price over 24H"
+        tests:
+          - not_null
+  - name: oxt
+    description: "OTX Data"
+    columns:
+      - name:  currency, 
+        description: "The type of coin"
+        tests:
+          - not_null
+      - name: date
+        description: "The date of the data point"
+        tests:
+          - not_null
+      - name:  closing_price_(USD)
+        description: "Closing Price in USD"
+        tests:
+          - not_null
+      - name: 24h_open_(USD)
+        description: "The open price"
+        tests:
+          - not_null
+      - name: 24h_high_(USD)
+        description: "The high price over 24H"
+        tests:
+          - not_null
+      - name: 24h_low_(USD)
+        description: "The low price over 24H"
+        tests:
+          - not_null
+  - name: xlm
+    description: "XLM Data"
+    columns:
+      - name:  currency, 
+        description: "The type of coin"
+        tests:
+          - not_null
+      - name: date
+        description: "The date of the data point"
+        tests:
+          - not_null
+      - name:  closing_price_(USD)
+        description: "Closing Price in USD"
+        tests:
+          - not_null
+      - name: 24h_open_(USD)
+        description: "The open price"
+        tests:
+          - not_null
+      - name: 24h_high_(USD)
+        description: "The high price over 24H"
+        tests:
+          - not_null
+      - name: 24h_low_(USD)
+        description: "The low price over 24H"
+        tests:
+          - not_null
+  - name: xrp
+    description: "XRP Data"
+    columns:
+      - name:  currency, 
+        description: "The type of coin"
+        tests:
+          - not_null
+      - name: date
+        description: "The date of the data point"
+        tests:
+          - not_null
+      - name:  closing_price_(USD)
+        description: "Closing Price in USD"
+        tests:
+          - not_null
+      - name: 24h_open_(USD)
+        description: "The open price"
+        tests:
+          - not_null
+      - name: 24h_high_(USD)
+        description: "The high price over 24H"
+        tests:
+          - not_null
+      - name: 24h_low_(USD)
+        description: "The low price over 24H"
+        tests:
+          - not_null
