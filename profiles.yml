@@ -1,11 +1,11 @@
-intro:
+example:
   target: dev
   outputs:
     dev:
       type: mariadb
       server: localhost
       port: 3306
-      schema: intro
+      schema: example
       username: root
       password: mariadb
       driver: MySQL ODBC 8.0 ANSI Driver
@@ -53,14 +53,4 @@ chapter5:
       username: root
       password: mariadb
       driver: MySQL ODBC 8.0 ANSI Driver
-example:
-  target: dev
-  outputs:
-    dev:
-      type: mariadb
-      server: localhost
-      port: 3306
-      schema: example
-      username: root
-      password: mariadb
-      driver: MySQL ODBC 8.0 ANSI Driver
+

@@ -3,10 +3,7 @@ USE mariadb;
 GRANT ALL PRIVILEGES ON * TO 'root' @'%' IDENTIFIED BY 'mariadb';
 
 -- Example project
-CREATE OR REPLACE DATABASE intro COMMENT 'example';
-
--- Intro DBT Setup
-CREATE OR REPLACE DATABASE intro COMMENT 'intro';
+CREATE OR REPLACE DATABASE example COMMENT 'example';
 
 -- Chapter 2: 911
 CREATE OR REPLACE DATABASE chapter2 COMMENT 'Chapter 2';
