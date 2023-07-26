@@ -1,4 +1,4 @@
-{{ config(materialized='table') }}
+{{ config(materialized='view') }}
 
 select job_id,
     excavator_id
@@ -87,7 +87,9 @@ where excavator_id in (
             or hydraulic_valves != 'P'
     )
     and job_id = 340
+
 union
+
 select job_id,
     excavator_id
 from {{ ref('jobs') }}
