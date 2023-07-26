@@ -4,4 +4,4 @@ with source as (
 
 )
 
-select "Currency" as "currency", "Date" as "date", "Closing_Price_USD" as "closing_price", "24h_Open_USD" as "24h_open", "24h_High_USD" as "24h_high", "24h_Low_USD" as "24h_low" from source
+select currency, detail_date, closing_price, 24_hour_open, 24h_high_usd, 24h_low_usd from source

@@ -1,4 +1,4 @@
-Currency,Date,Closing_Price_USD,24h_Open_USD,24h_High_USD,24h_Low_USD
+currency,detail_date,closing_price,24_hour_open,24h_high_usd,24h_low_usd
 BTC,10/1/13,123.65499,124.30466,124.75166,122.56349
 BTC,10/2/13,125.455,123.65499,125.7585,123.63383
 BTC,10/3/13,108.58483,125.455,125.66566,83.32833

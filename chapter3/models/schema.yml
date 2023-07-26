@@ -113,7 +113,7 @@ models:
   - name: xlm
     description: "XLM Data"
     columns:
-      - name:  currency, 
+      - name: currency, 
         description: "The type of coin"
         tests:
           - not_null
