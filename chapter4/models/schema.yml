@@ -1,0 +1,55 @@
+
+version: 2
+
+models:
+  - name: "jobs"
+    description: "A list of all jobs that we are processing"
+    columns:
+      - name: job_id
+        description: "ID of the job"
+        tests: 
+          - not_null
+      - name: excavator_id
+        description: "ID of the excavator assigned to this job"
+        tests: 
+          - not_null
+      - name: city
+        description: "City the job is located in"
+        tests: 
+          - not_null
+      - name: manager
+        description: "Name of the manager of the job"
+        tests: 
+          - not_null
+
+  - name: "excavators"
+    description: "A list of all exacavators owned by the company"
+    columns:
+      - name: excavator_id
+        description: "ID of the excavator"
+        tests: 
+          - not_null
+      - name: oil_level
+        description: "Pass/Fail indicator for oil level"
+        tests: 
+          - not_null
+          - accepted_values:
+              values: ['P', 'F']
+      - name: air_filter
+        description: "Pass/Fail indicator for air filter"
+        tests: 
+          - not_null
+          - accepted_values:
+              values: ['P', 'F']
+      - name: coolant_level
+        description: "Pass/Fail indicator for coolant level"
+        tests: 
+          - not_null
+          - accepted_values:
+              values: ['P', 'F']
+      - name: hydraulic_valves
+        description: "Pass/Fail indicator for hydraulic_valves"
+        tests: 
+          - not_null
+          - accepted_values:
+              values: ['P', 'F']
