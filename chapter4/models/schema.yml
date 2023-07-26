@@ -53,9 +53,21 @@ models:
           - not_null
           - accepted_values:
               values: ['P', 'F']
-              
-  - name: "maintenance_needed"
+
+  - name: "maintenance"
     description: "The list of excavators that have failed on a per job basis"
+    columns:
+      - name: job_id
+        description: "ID of the job"
+        tests: 
+          - not_null
+      - name: excavator_id
+        description: "ID of the excavator assigned to this job"
+        tests: 
+          - not_null
+
+  - name: "maintenance_cte"
+    description: "The list of excavators that have failed on a per job basis using CTEs"
     columns:
       - name: job_id
         description: "ID of the job"
