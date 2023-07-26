@@ -2,6 +2,9 @@ USE mariadb;
 -- Using the root user, grant access to the mariadb user.
 GRANT ALL PRIVILEGES ON * TO 'root' @'%' IDENTIFIED BY 'mariadb';
 
+-- Example project
+CREATE OR REPLACE DATABASE intro COMMENT 'example';
+
 -- Intro DBT Setup
 CREATE OR REPLACE DATABASE intro COMMENT 'intro';
 
