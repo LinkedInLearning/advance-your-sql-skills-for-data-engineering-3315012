@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 with source as (
 
     select * from {{ ref('raw_crypto_data') }}
