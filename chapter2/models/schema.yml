@@ -2,20 +2,34 @@
 version: 2
 
 models:
-  - name: my_first_dbt_model
-    description: "A starter dbt model"
+  - name: taxi_trips
+    description: "Information about taxi trips"
     columns:
-      - name: id
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
-
-  - name: my_second_dbt_model
-    description: "A starter dbt model"
-    columns:
-      - name: id
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
+      - name: pickup
+        description: "Pickup Time"
+      - name: dropoff
+        description: "Dropoff Time"
+      - name: passengers
+        description: "Number of Passangers"
+      - name: distance
+        description: "Distance"
+      - name: fare
+        description: "Fare"
+      - name: tip
+        description: "Tip"
+      - name: tolls
+        description: "Tolls"
+      - name: total
+        description: "Total"
+      - name: color
+        description: "Color"
+      - name: payment
+        description: "Payment Method"
+      - name: pickup_zone
+        description: "Pickup Zone"
+      - name: dropoff_zone
+        description: "Dropoff Zone"
+      - name: pickup_borough
+        description: "Pickup Borough"
+      - name: dropoff_borough
+        description: "Dropoff Borough"
