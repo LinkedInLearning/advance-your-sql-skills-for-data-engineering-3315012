@@ -7,29 +7,57 @@ models:
     columns:
       - name: pickup
         description: "Pickup Time"
+        tests: 
+          - not_null
       - name: dropoff
         description: "Dropoff Time"
+        tests: 
+          - not_null
       - name: passengers
         description: "Number of Passangers"
+        tests: 
+          - not_null
       - name: distance
         description: "Distance"
+        tests: 
+          - not_null
       - name: fare
         description: "Fare"
+        tests: 
+          - not_null
       - name: tip
         description: "Tip"
+        tests: 
+          - not_null
       - name: tolls
         description: "Tolls"
+        tests: 
+          - not_null
       - name: total
         description: "Total"
+        tests: 
+          - not_null
       - name: color
         description: "Color"
+        tests: 
+          - not_null
       - name: payment
         description: "Payment Method"
+        tests: 
+          - not_null
       - name: pickup_zone
         description: "Pickup Zone"
+        tests: 
+          - not_null
       - name: dropoff_zone
         description: "Dropoff Zone"
+        tests: 
+          - not_null
       - name: pickup_borough
         description: "Pickup Borough"
+        tests: 
+          - not_null
       - name: dropoff_borough
         description: "Dropoff Borough"
+        tests: 
+          - not_null
