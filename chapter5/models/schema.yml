@@ -2,9 +2,24 @@
 version: 2
 
 models:
-  - name: ""
-    description: ""
+  - name: adid_data
     columns:
-      - name: id
-        description: ""
-        tests: []
+      - name: adid
+        tests:
+          - unique
+          - not_null
+      - name: latitude
+        tests:
+          - not_null
+      - name: longitude
+        tests:
+          - not_null
+      - name: city
+        tests:
+          - not_null
+      - name: eventdate
+        tests:
+          - not_null
+      - name: cohort
+        tests:
+          - not_null
