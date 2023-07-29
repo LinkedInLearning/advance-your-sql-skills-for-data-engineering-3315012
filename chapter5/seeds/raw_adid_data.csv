@@ -1,4 +1,4 @@
-adid,latitude,longitude,city,date,cohort
+adid,latitude,longitude,city,eventdate,cohort
 25facd95-75c0-450a-acb0-5a2e2fcb7c61,25.49872,119.790168,Pingtian,12/01/2022,four
 81e4cd8d-36e8-411b-b130-6995823f319a,-17.3652664,30.1935663,Chinhoyi,10/13/2022,four
 11932a61-b52d-4e6c-9d9c-3da592e34701,49.7371648,19.9186389,Krzczonów,12/29/2022,six
