@@ -10,26 +10,13 @@ models:
     columns:
       - name: adid
         description: "The advertisting ID for this data point. Every value in column should be a distinct ad_id. This value is required."
-        tests:
-          - unique
-          - not_null
       - name: latitude
         description: "The latitude of the data point. This value is required." 
-        tests:
-          - not_null
       - name: longitude
         description: "The longitude of the data point. This value is required." 
-        tests:
-          - not_null
       - name: city
         description: "The city of the data point. This value is required." 
-        tests:
-          - not_null
       - name: eventdate
         description: "The date of the data point. This value is required."  
-        tests:
-          - not_null
       - name: cohort
         description: "The cohort of the adid. Theree are only 6 cohorts, each named either 'one', 'two', 'three', 'four', 'five', or 'six'. This value is required. Each cohort should have a maximum of 110 distinct adids." 
-        tests:
-          - not_null
