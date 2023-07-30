@@ -1,4 +1,4 @@
-{{ config(materialized='table') }}
+{{ config(materialized='incremental') }}
 
 with source as (
 
@@ -7,3 +7,9 @@ with source as (
 )
 
 select currency, detail_date, closing_price, 24_hour_open, 24h_high_usd, 24h_low_usd from source
+
+{% if is_incremental() %}
+
+where detail_date > (select max(detail_date) from {{ this }})
+
+{% endif %}
