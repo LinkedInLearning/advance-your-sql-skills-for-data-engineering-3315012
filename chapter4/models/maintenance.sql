@@ -1,3 +1,5 @@
+-- maintenance: Identify the excavators that are not "ready" in a list of jobs
+
 {{ config(materialized='view') }}
 
 select job_id,
