@@ -5,6 +5,9 @@ GRANT ALL PRIVILEGES ON * TO 'root' @'%' IDENTIFIED BY 'mariadb';
 -- Example project
 CREATE OR REPLACE DATABASE example COMMENT 'example';
 
+-- Intro project
+CREATE OR REPLACE DATABASE intro COMMENT 'intro';
+
 -- Chapter 2: 911
 CREATE OR REPLACE DATABASE chapter2 COMMENT 'Chapter 2';
 
@@ -16,18 +19,3 @@ CREATE OR REPLACE DATABASE chapter4 COMMENT 'Chapter 4';
 
 -- Chapter 5: Testing
 CREATE OR REPLACE DATABASE chapter5 COMMENT 'Chapter 5';
-
-
--- CREATE TABLE MyTable (
---   ID INTEGER NOT NULL AUTO_INCREMENT,
---   Item VARCHAR(255),
---   PRIMARY KEY (ID)
--- );
-
--- Populate the table
--- INSERT INTO
---   MyTable (Item)
--- VALUES
---   ('One'),
---   ('Two'),
---   ('Three');

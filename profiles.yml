@@ -9,6 +9,17 @@ example:
       username: root
       password: mariadb
       driver: MySQL ODBC 8.0 ANSI Driver
+intro:
+  target: dev
+  outputs:
+    dev:
+      type: mariadb
+      server: localhost
+      port: 3306
+      schema: intro
+      username: root
+      password: mariadb
+      driver: MySQL ODBC 8.0 ANSI Driver
 chapter2:
   target: dev
   outputs:
