@@ -33,3 +33,6 @@ models:
         description: "The cohort of the adid. Theree are only 6 cohorts, each named either 'one', 'two', 'three', 'four', 'five', or 'six'. This value is required. Each cohort should have a maximum of 110 distinct adids." 
         tests:
           - not_null
+          - accepted_values:
+            values: ['one', 'two', 'three', 'four', 'five', 'six']
+          - ensure_cohort_size_max_110
