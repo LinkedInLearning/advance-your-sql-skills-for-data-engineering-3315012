@@ -3,7 +3,7 @@ version: 2
 
 # To Do: 
 # 1. Include some of the built in dbt tests into the columns.
-# 2. Create a custom dbt test to that will fail if any of the cohorts have more than 110 distinct adids.
+# 2. Create a custom dbt test to that will fail if any of the cohorts have more than 100 distinct adids.
 
 models:
   - name: adid_data
@@ -19,4 +19,4 @@ models:
       - name: eventdate
         description: "The date of the data point. This value is required."  
       - name: cohort
-        description: "The cohort of the adid. Theree are only 6 cohorts, each named either 'one', 'two', 'three', 'four', 'five', or 'six'. This value is required. Each cohort should have a maximum of 110 distinct adids." 
+        description: "The cohort of the adid. Theree are only 6 cohorts, each named either 'one', 'two', 'three', 'four', 'five', or 'six'. This value is required. Each cohort should have a maximum of 100 distinct adids." 
