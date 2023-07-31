@@ -6,7 +6,7 @@ with cohort_count_cte as (
     group by {{ column_name }} 
 )
 
-select cohort 
+select cohort, cohort_count
 from cohort_count_cte
 where cohort_count > 100
 
