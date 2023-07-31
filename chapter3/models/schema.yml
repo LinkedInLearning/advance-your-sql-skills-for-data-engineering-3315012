@@ -5,7 +5,7 @@ models:
   - name: btc
     description: "BTC Data"
     columns:
-      - name:  currency, 
+      - name:  currency 
         description: "The type of coin"
       - name: date
         description: "The date of the data point"
@@ -21,7 +21,7 @@ models:
   - name: eth
     description: "ETH Data"
     columns:
-      - name:  currency, 
+      - name:  currency
         description: "The type of coin"
       - name: date
         description: "The date of the data point"
@@ -37,7 +37,7 @@ models:
   - name: link
     description: "LINK Data"
     columns:
-      - name:  currency, 
+      - name:  currency
         description: "The type of coin"
       - name: date
         description: "The date of the data point"
@@ -69,7 +69,7 @@ models:
   - name: xlm
     description: "XLM Data"
     columns:
-      - name: currency, 
+      - name: currency 
         description: "The type of coin"
       - name: date
         description: "The date of the data point"
@@ -85,7 +85,7 @@ models:
   - name: xrp
     description: "XRP Data"
     columns:
-      - name:  currency, 
+      - name:  currency
         description: "The type of coin"
       - name: date
         description: "The date of the data point"
