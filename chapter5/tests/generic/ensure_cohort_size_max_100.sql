@@ -1,4 +1,4 @@
-{% test ensure_cohort_size_max_110(model, column_name) %}
+{% test ensure_cohort_size_max_100(model, column_name) %}
 
 with cohort_count_cte as (
     select cohort, count(*) as cohort_count
@@ -6,8 +6,8 @@ with cohort_count_cte as (
     group by {{ column_name }} 
 )
 
-select cohort 
+select cohort, cohort_count
 from cohort_count_cte
-where cohort_count > 110
+where cohort_count > 100
 
 {% endtest %}

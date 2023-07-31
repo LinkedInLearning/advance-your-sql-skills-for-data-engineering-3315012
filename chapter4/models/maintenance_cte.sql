@@ -1,3 +1,5 @@
+-- maintenance_cte: Rewrite the maintenance model using CTEs to make the code cleaner and more readable
+
 {{ config(materialized='view') }}
 
 -- Create a CTE to filter excavator_ids based on conditions
