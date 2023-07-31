@@ -1,1 +1,0 @@
-### Advance Your SQL Skills for Data Engineering - Chapter 3
