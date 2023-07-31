@@ -4,3 +4,4 @@ node_modules
 .tmp
 npm-debug.log
 dbt.log
+.user.yml

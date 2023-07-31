@@ -110,4 +110,4 @@ models:
     description: "Average number of passengers dropped off in manhattan"
     columns:
       - name: avg
-        description: "Average Number of Passangers"
+        description: "Average number of passengers"
