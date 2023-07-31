@@ -1,3 +1,4 @@
+-- crypto_data: Update the materialization to ensure the best strategy is selected
 {{ config(materialized='table') }}
 
 with source as (
