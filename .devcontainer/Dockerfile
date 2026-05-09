@@ -7,7 +7,10 @@ ENV PYTHONUNBUFFERED 1
 ARG NODE_VERSION="none"
 RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"; fi
 
-RUN apt update && apt install -y mariadb-client && apt install -y vim
+RUN rm -f /etc/apt/sources.list.d/yarn.list \
+  && apt-get update \
+  && apt-get install -y --no-install-recommends mariadb-client vim \
+  && rm -rf /var/lib/apt/lists/*
 
 # # [Optional] If your requirements rarely change, uncomment this section to add them to the image.
 COPY requirements.txt /tmp/pip-tmp/
